@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+} 
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-f{
+    display: flex;
+}
+.jcac{
+    justify-content: center;
+    align-items: center;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.jc-between{
+    justify-content: space-between;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+
+
+
+.container {
+    align-items: center;
+    width: 100%;
+    height: 20vh; 
+    background-color: gainsboro;
+    /* margin-right: 25%; */ 
+}
+
+.container img {
+    margin-left: 9%; 
+    width: 60%;
+} 
+
+.menu li {
+    margin: 0 4%;
+}
+
+.menu li a{
+    font-size: 20px;
+    color: black;
+} 
+
+.second {
+    padding: 2%;
+    background-color: rgb(252, 235, 210);
+    height: 70vh;
+}
+
+.info-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+.info-slide h3{
+    font-size: 40px; 
+    padding: 2%;
+    width: 60%;
+}
+
+.info-slide span{
+    font-size: 20px;
+    width: 70%;
+    margin: 4% 0;
+}
+
+.slide  img{
+    width: calc(100%*12/12);
+
+}
+
+.filter-menu {
+    justify-content: space-between;
+    margin: 4%;
+
+}
+
+.filter-menu ul{
+    display: flex;
+}
+
+.filter-menu ul li {
+    margin: 0 4%;
+}
+
+.filter-menu ul li a{
+    color: black;
+}
+:root {
+    --maincolor : brown;
+}
+
+.filter-menu ul li a:hover {
+    color: var(--maincolor);
+    transition: .25s;
+}
+
+.item {
+    margin: 0 2%;
+    display: block;
+}
+
+.item .flower{
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+.flw {
+    margin: 2%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.names{
+    text-align: center;
+    margin: 6%;
+}
+
+.names p{
+    margin: 5%;
+}
+
+.exotic {
+    display: block;
+}
+
+.cactus {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* .register {
+    margin: 5%;
+}
+.register * {
+    margin-bottom: 4%;
+}
+
+.register h2{
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.register .inp {
+    width: 30%;
+    height: 40px;
+}
+
+.register button {
+    padding: 1.5%;
+    width: 14%;
+    margin-left: 3%;
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.register a {
+    color: black;
+}
+
+.register a:hover {
+    transition: .20s;
+    color: blue;
+} */
+
